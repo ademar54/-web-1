@@ -1,0 +1,100 @@
+body{background-color: #d8690d;
+}
+h1{.luckiest-guy-regular 
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+h3{
+    color: black;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+#logo{
+    margin:  20px 0px 0px 20px;
+    border-radius: 50px;
+
+}
+header{
+    height: 300px;
+    background-color:black;
+    color:white;
+
+}
+.card{
+    width: 300px;
+    height: 350px;
+    background-color:white;
+    border: 3px orange solid;
+    text-align: center;
+}
+.card:hover{border: 3px blueviolet solid
+    
+}
+#nombrearticulo{
+    color: white
+}
+.imgcard{
+    height: 200px;
+    width: 250px;
+}
+.contenedorp{
+    display: flex;
+    justify-content: space-around;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+#SubtH3{
+    color: white;
+}
+.infoFooter{
+    border: white solid;
+    text-align: center;
+    width: 23%;
+}
+.ContenedorFooter{
+    display: flex;
+    justify-content: space-around;
+}
+#pagpr{
+    color: black;
+} 
+@media(max-width:500px){
+
+    body{background-color: #0dd839;
+    }
+    main{
+        margin: 25px;
+        background-color: white;
+        border: 2px black solid;
+    }
+}
+@media(min-width:501px) {
+    body{background-color: #d80d1e;
+    }
+    main{
+        margin: 25px;
+        background-color: white;
+        border: 2px black solid;
+    }
+}
+@media(min-width:1000px){
+    body{background-color: #d80d7d;
+    }
+    main{
+        margin: 25px;
+        background-color: white;
+        border: 2px black solid;
+    }
+}
+#carouselExample {
+    height: 200px;
+    width: 400px;
+    
+   
+
+}
